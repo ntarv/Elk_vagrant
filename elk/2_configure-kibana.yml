@@ -126,7 +126,7 @@
   
   - name: Wait for Kibana to be ready
     pause: 
-      minutes: 2
+      minutes: 1
 
   - name: Set dark mode
     uri:

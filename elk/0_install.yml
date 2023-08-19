@@ -210,7 +210,7 @@
     service: name=kibana enabled=yes state=stopped
 
   - name: Make the shell scripts executable
-    file: path=/elastic-stack/{{ item }} mode=0755
+    file: path=/elk/{{ item }} mode=0755
     loop:
       - all.sh
       - fix-time.sh
